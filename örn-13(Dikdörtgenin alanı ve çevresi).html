@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Değişkenler
+        var genislik,yukseklik,alan,cevre;
+
+        //Kullanıcıdan değer alalım
+        genislik=Number(prompt("Genişlik giriniz..."));
+        yukseklik=Number(prompt("Yükseklik giriniz..."));
+
+        //Alan ve çevre hesabı
+        alan=genislik*yukseklik;
+        cevre=2*(genislik+yukseklik);
+
+        //Sonuç
+        document.write("<b>Alan= "+alan+("<b> Çevre= ")+cevre);
+
+    </script>
+</body>
+</html>
